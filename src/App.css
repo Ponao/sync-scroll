@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+}
+
+.scroll-first {
+  overflow-y: scroll;
+}
+
+.scroll-second {
+  overflow-y: scroll;
+}
+
+.image {
+  position: relative;
+}
+
+.image span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: max-content;
+  height: max-content;
+  border-radius: 50%;
+  background-color: #fff;
+}
